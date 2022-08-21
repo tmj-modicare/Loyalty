@@ -7,54 +7,65 @@
     <title>TMJ Loyalty Reports</title>
   </head>
   <body>
-    <div style="margin: 20px;"> <img style="min-width:100px;min-height:auto;max-width: 300px; height: auto; display: block; margin: auto;"
-        src="tmj_logo.png"></div>
-    <div style="margin: 20px;"><br>
+    <div style="padding:0 20px;"> <img style="min-width:100px;min-height:auto;max-width: 300px; height: auto; display: block; margin: auto;"
+        src="tmj_logo.png"> </div>
+    <div style="background-color:cream;width:80%; margin :auto">
+      <p><br>
+      </p>
+      <p> </p>
+      <br>
+      <a style="text-decoration: none; color: black;" href="page/TMJ_App.html"
+        id="Modicare TMJ App">
+        <div style="margin:auto; width:80%;background-color: dodgerblue;;padding: 30px; ">
+          <div style="text-align: center;color: white;font-size:20px;
+    width: 100%;"> Open Modicare TMJ App<br>
+          </div>
+        </div>
+      </a>
+      <p> </p>
+      <table style="width: 80%; margin:auto " border="0">
+        <tbody>
+          <tr>
+            <td><img style="margin:auto; display:block;max-width: 100px;" src="pic/1.jpg"
+                alt=""></td>
+            <td><img style="margin:auto; display:block;max-width: 100px;" src="pic/2.jpg"
+                alt=""></td>
+            <td><img style="margin:auto; display:block;max-width: 100px;" src="pic/3.jpg"
+                alt=""></td>
+          </tr>
+          <tr>
+            <td><img style="margin:auto; display:block;max-width: 100px;" src="pic/4.jpg"
+                alt=""></td>
+            <td><img style="margin:auto; display:block;max-width: 100px;" src="pic/5.jpg"
+                alt=""></td>
+            <td><img style="margin:auto; display:block;max-width: 100px;" src="pic/6.jpg"
+                alt=""></td>
+          </tr>
+        </tbody>
+      </table>
+      <p><br>
+      </p>
     </div>
-    <div style="padding: 10px;     background-color: #545454; font-size: x-large;">
-      <div style="margin: 20px;color:white;text-align:center"> TMJ App </div>
+    <div style="background-color:cream;width:80%; margin :auto"><br>
+    </div>
+    <div style="background-color:cream;width:80%; margin :auto"><br>
+    </div>
+    <div style="background-color:#545454;width:80%; height:2px; margin :auto"><br>
     </div>
     <br>
-    <p> </p>
-    <table style="width: 80%; margin:auto " border="0">
-      <tbody>
-        <tr>
-          <td><img style="margin:auto; display:block;max-width: 100px;" src="pic/1.jpg"
-              alt=""></td>
-          <td><img style="margin:auto; display:block;max-width: 100px;" src="pic/2.jpg"
-              alt=""></td>
-          <td><img style="margin:auto; display:block;max-width: 100px;" src="pic/3.jpg"
-              alt=""></td>
-        </tr>
-        <tr>
-          <td><img style="margin:auto; display:block;max-width: 100px;" src="pic/4.jpg"
-              alt=""></td>
-          <td><img style="margin:auto; display:block;max-width: 100px;" src="pic/5.jpg"
-              alt=""></td>
-          <td><img style="margin:auto; display:block;max-width: 100px;" src="pic/6.jpg"
-              alt=""></td>
-        </tr>
-      </tbody>
-    </table>
-    <p><br>
-    </p>
-    <div style="margin:auto; width:50%" >
-      <div style="text-align: center;background-color: dodgerblue;color: white;padding: 20px;
-    width: 100%;"> <a src="" id="Modicare TMJ App">Open Modicare TMJ App</a><br>
+    <div style="background-color:cream;width:80%; margin :auto"><br>
+      <div style="padding: 10px;     background-color: #545454; font-size: x-large;">
+        <div style="margin: 20px;color:white;text-align:center">Loyalty report
+          History</div>
       </div>
-    </div>
-    <br>
-    <div style="padding: 10px;     background-color: #545454; font-size: x-large;">
-      <div style="margin: 20px;color:white;text-align:center">Loyalty report
-        History</div>
-    </div>
-    <div style="margin: 20px;">
       <div style="margin: 20px;">
-        <ul>
-          <li> <a href="aug_2022/index.html">August 2022</a><a href="aug_2022/index.html"></a></li>
-        </ul>
-      </div>
-      <div style="margin: 20px;"><br>
+        <div style="margin: 20px;">
+          <ul>
+            <li> <a href="aug_2022/index.html">August 2022</a><a href="aug_2022/index.html"></a></li>
+          </ul>
+        </div>
+        <div style="margin: 20px;"><br>
+        </div>
       </div>
     </div>
   </body>
