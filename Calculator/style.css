@@ -1,0 +1,55 @@
+*{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#title{
+    font-size: 30px;
+    padding: 10px 0;
+}
+.main{
+    margin: 0 auto;
+}
+
+.leg{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+#footer{
+    height: 60px;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.width-custom
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.PGPV
+{
+    font-size: 25px;
+    height: 70px;
+    padding: 5px;
+}
+
+.form
+{
+    margin: 0 auto;
+    background-image: linear-gradient(#c2cfe2, rgb(245, 245, 245));
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.index-table-value 
+{
+    text-align: center;
+}
