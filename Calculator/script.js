@@ -510,6 +510,8 @@ function calculateTotalPoints() {
 
 function updateIncome() {
     
+    totalIncomeNumber = 0;
+
     var incomeArray = [".ic1",".ic2",".ic3",".ic4",".ic5",".ic6",".ic7",".ic8",".ic9"];
     var table = document.getElementById("incomeTable");
 
@@ -668,6 +670,9 @@ function updateIncome() {
 
     totalIncomeText.innerHTML = (totalIncomeNumber).toFixed(2) + "";
 
-    document.getElementById("income").innerHTML = "\u{20B9} "+(totalIncomeNumber).toFixed(2);
+    let dollarIndianLocale = Intl.NumberFormat('en-IN');
+    ;
+
+    document.getElementById("income").innerHTML = "\u{20B9}" + dollarIndianLocale.format(totalIncomeNumber);
 
 }
