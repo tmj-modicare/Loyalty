@@ -18,12 +18,10 @@
     <div class="container-fluid">
         <br>
         <div style="padding:50px 0px 0px 0px;">
-            <img style="border-radius: 1em; width: 80% ; height: auto; display: block; margin: auto;" src="./tmj_logo.png">
-            <h2 style="font-family: sans-serif;font-size: 1.2em;text-align: center; color: rgb(39, 39, 39);">Team Manisha Jain :
-              Modicare</h2>
+            <img class="tmj-logo" src="./tmj_logo.png">
           </div>
         <br>
-        <form action="#" class="form form-control">
+        <form action="#" class="form form-control-custom">
             <br>
             <div class="bg-success bg-gradient text-white container-fluid form-control">
 
@@ -31,7 +29,7 @@
                     <label class=" col-sm-4 col-form-label">PGPV/PPV (You)</label>
 
                     <div class="col-sm-8">
-                        <input placeholder="Please Enter Your PGPV/PPV" oninput="setTitle()"
+                        <input placeholder="Please Enter Your PGPV/PPV" oninput="updateTbl()"
                             class="border border-primary form-control" id="pgpv" type="number" min="0" value="0"><br>
                     </div>
                 </div>
@@ -44,7 +42,7 @@
                             <tr>
                                 <td>Title</td>
                                 <td colspan="3">
-                                    <select name="title" oninput="updateTblRows()" class="title form-control">
+                                    <select name="title" oninput="updateTbl()" class="title form-control">
                                         <option value="NQD">NQD</option>
                                         <option value="Director">Director</option>
                                         <option value="Senior Director">Senior Director</option>
@@ -53,7 +51,7 @@
                                             Director</option>
                                         <option value="Platinum Director">Platinum Director</option>
                                         <option value="Diamond Director">Diamond Director</option>
-                                        <option value="Black Diamond Director">Black Diamond
+                                        <option value="Black Diamond Dirjector">Black Diamond
                                             Director</option>
                                         <option value="Double Black Diamond Director">Double Black
                                             Diamond Director </option>
@@ -77,63 +75,63 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t1')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen1"></td>
                                 <td class="DBP1">0</td>
                                 <td class="LBP1">0</td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t1')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen2"></td>
                                 <td class="DBP2">0</td>
                                 <td class="LBP2">0</td>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t1')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen3"></td>
                                 <td class="DBP3">0</td>
                                 <td class="LBP3">0</td>
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t1')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen4"></td>
                                 <td class="DBP4">0</td>
                                 <td class="LBP4">0</td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t1')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen5"></td>
                                 <td class="DBP5">0</td>
                                 <td class="LBP5">0</td>
                             </tr>
                             <tr>
                                 <td>6</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t1')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen6"></td>
                                 <td class="DBP6">0</td>
                                 <td class="LBP6">0</td>
                             </tr>
                             <tr>
                                 <td>7</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t1')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen7"></td>
                                 <td class="DBP7">0</td>
                                 <td class="LBP7">0</td>
                             </tr>
                             <tr>
                                 <td>8</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t1')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen8"></td>
                                 <td class="DBP8">0</td>
                                 <td class="LBP8">-</td>
                             </tr>
                             <tr>
                                 <td>9</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t1')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen9"></td>
                                 <td class="DBP9">0</td>
                                 <td class="LBP9">-</td>
@@ -156,7 +154,7 @@
                             <tr>
                                 <td>Title</td>
                                 <td colspan="3">
-                                    <select name="title" oninput="updateTblRows()" class="title form-control">
+                                    <select name="title" oninput="updateTbl()" class="title form-control">
                                         <option value="NQD">NQD</option>
                                         <option value="Director">Director</option>
                                         <option value="Senior Director">Senior Director</option>
@@ -189,63 +187,63 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t2')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen1"></td>
                                 <td class="DBP1">0</td>
                                 <td class="LBP1">0</td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t2')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen2"></td>
                                 <td class="DBP2">0</td>
                                 <td class="LBP2">0</td>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t2')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen3"></td>
                                 <td class="DBP3">0</td>
                                 <td class="LBP3">0</td>
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t2')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen4"></td>
                                 <td class="DBP4">0</td>
                                 <td class="LBP4">0</td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t2')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen5"></td>
                                 <td class="DBP5">0</td>
                                 <td class="LBP5">0</td>
                             </tr>
                             <tr>
                                 <td>6</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t2')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen6"></td>
                                 <td class="DBP6">0</td>
                                 <td class="LBP6">0</td>
                             </tr>
                             <tr>
                                 <td>7</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t2')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen7"></td>
                                 <td class="DBP7">0</td>
                                 <td class="LBP7">0</td>
                             </tr>
                             <tr>
                                 <td>8</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t2')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen8"></td>
                                 <td class="DBP8">0</td>
                                 <td class="LBP8">-</td>
                             </tr>
                             <tr>
                                 <td>9</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t2')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen9"></td>
                                 <td class="DBP9">0</td>
                                 <td class="LBP9">-</td>
@@ -270,7 +268,7 @@
                             <tr>
                                 <td>Title</td>
                                 <td colspan="3">
-                                    <select name="title" oninput="updateTblRows()" class="title form-control">
+                                    <select name="title" oninput="updateTbl()" class="title form-control">
                                         <option value="NQD">NQD</option>
                                         <option value="Director">Director</option>
                                         <option value="Senior Director">Senior Director</option>
@@ -303,63 +301,63 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t3')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen1"></td>
                                 <td class="DBP1">0</td>
                                 <td class="LBP1">0</td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t3')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen2"></td>
                                 <td class="DBP2">0</td>
                                 <td class="LBP2">0</td>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t3')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen3"></td>
                                 <td class="DBP3">0</td>
                                 <td class="LBP3">0</td>
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t3')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen4"></td>
                                 <td class="DBP4">0</td>
                                 <td class="LBP4">0</td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t3')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen5"></td>
                                 <td class="DBP5">0</td>
                                 <td class="LBP5">0</td>
                             </tr>
                             <tr>
                                 <td>6</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t3')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen6"></td>
                                 <td class="DBP6">0</td>
                                 <td class="LBP6">0</td>
                             </tr>
                             <tr>
                                 <td>7</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t3')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen7"></td>
                                 <td class="DBP7">0</td>
                                 <td class="LBP7">0</td>
                             </tr>
                             <tr>
                                 <td>8</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t3')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen8"></td>
                                 <td class="DBP8">0</td>
                                 <td class="LBP8">-</td>
                             </tr>
                             <tr>
                                 <td>9</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t3')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen9"></td>
                                 <td class="DBP9">0</td>
                                 <td class="LBP9">-</td>
@@ -382,7 +380,7 @@
                             <tr>
                                 <td>Title</td>
                                 <td colspan="3">
-                                    <select name="title" oninput="updateTblRows()" class="title form-control">
+                                    <select name="title" oninput="updateTbl()" class="title form-control">
                                         <option value="NQD">NQD</option>
                                         <option value="Director">Director</option>
                                         <option value="Senior Director">Senior Director</option>
@@ -415,63 +413,63 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t4')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen1"></td>
                                 <td class="DBP1">0</td>
                                 <td class="LBP1">0</td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t4')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen2"></td>
                                 <td class="DBP2">0</td>
                                 <td class="LBP2">0</td>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t4')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen3"></td>
                                 <td class="DBP3">0</td>
                                 <td class="LBP3">0</td>
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t4')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen4"></td>
                                 <td class="DBP4">0</td>
                                 <td class="LBP4">0</td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t4')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen5"></td>
                                 <td class="DBP5">0</td>
                                 <td class="LBP5">0</td>
                             </tr>
                             <tr>
                                 <td>6</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t4')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen6"></td>
                                 <td class="DBP6">0</td>
                                 <td class="LBP6">0</td>
                             </tr>
                             <tr>
                                 <td>7</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t4')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen7"></td>
                                 <td class="DBP7">0</td>
                                 <td class="LBP7">0</td>
                             </tr>
                             <tr>
                                 <td>8</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t4')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen8"></td>
                                 <td class="DBP8">0</td>
                                 <td class="LBP8">-</td>
                             </tr>
                             <tr>
                                 <td>9</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t4')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen9"></td>
                                 <td class="DBP9">0</td>
                                 <td class="LBP9">-</td>
@@ -496,7 +494,7 @@
                             <tr>
                                 <td>Title</td>
                                 <td colspan="3">
-                                    <select name="title" oninput="updateTblRows()" class="title form-control">
+                                    <select name="title" oninput="updateTbl()" class="title form-control">
                                         <option value="NQD">NQD</option>
                                         <option value="Director">Director</option>
                                         <option value="Senior Director">Senior Director</option>
@@ -529,63 +527,63 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t5')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen1"></td>
                                 <td class="DBP1">0</td>
                                 <td class="LBP1">0</td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t5')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen2"></td>
                                 <td class="DBP2">0</td>
                                 <td class="LBP2">0</td>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t5')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen3"></td>
                                 <td class="DBP3">0</td>
                                 <td class="LBP3">0</td>
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t5')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen4"></td>
                                 <td class="DBP4">0</td>
                                 <td class="LBP4">0</td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t5')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen5"></td>
                                 <td class="DBP5">0</td>
                                 <td class="LBP5">0</td>
                             </tr>
                             <tr>
                                 <td>6</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t5')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen6"></td>
                                 <td class="DBP6">0</td>
                                 <td class="LBP6">0</td>
                             </tr>
                             <tr>
                                 <td>7</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t5')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen7"></td>
                                 <td class="DBP7">0</td>
                                 <td class="LBP7">0</td>
                             </tr>
                             <tr>
                                 <td>8</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t5')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen8"></td>
                                 <td class="DBP8">0</td>
                                 <td class="LBP8">-</td>
                             </tr>
                             <tr>
                                 <td>9</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t5')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen9"></td>
                                 <td class="DBP9">0</td>
                                 <td class="LBP9">-</td>
@@ -608,7 +606,7 @@
                             <tr>
                                 <td>Title</td>
                                 <td colspan="3">
-                                    <select name="title" oninput="updateTblRows()" class="title form-control">
+                                    <select name="title" oninput="updateTbl()" class="title form-control">
                                         <option value="NQD">NQD</option>
                                         <option value="Director">Director</option>
                                         <option value="Senior Director">Senior Director</option>
@@ -641,63 +639,63 @@
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t6')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen1"></td>
                                 <td class="DBP1">0</td>
                                 <td class="LBP1">0</td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t6')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen2"></td>
                                 <td class="DBP2">0</td>
                                 <td class="LBP2">0</td>
                             </tr>
                             <tr>
                                 <td>3</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t6')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen3"></td>
                                 <td class="DBP3">0</td>
                                 <td class="LBP3">0</td>
                             </tr>
                             <tr>
                                 <td>4</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t6')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen4"></td>
                                 <td class="DBP4">0</td>
                                 <td class="LBP4">0</td>
                             </tr>
                             <tr>
                                 <td>5</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t6')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen5"></td>
                                 <td class="DBP5">0</td>
                                 <td class="LBP5">0</td>
                             </tr>
                             <tr>
                                 <td>6</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t6')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen6"></td>
                                 <td class="DBP6">0</td>
                                 <td class="LBP6">0</td>
                             </tr>
                             <tr>
                                 <td>7</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t6')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen7"></td>
                                 <td class="DBP7">0</td>
                                 <td class="LBP7">0</td>
                             </tr>
                             <tr>
                                 <td>8</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t6')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen8"></td>
                                 <td class="DBP8">0</td>
                                 <td class="LBP8">-</td>
                             </tr>
                             <tr>
                                 <td>9</td>
-                                <td><input type="number" min="0" oninput="updateTbl('t6')" value="0"
+                                <td><input type="number" min="0" oninput="updateTbl()" value="0"
                                         class="form-control gen9"></td>
                                 <td class="DBP9">0</td>
                                 <td class="LBP9">-</td>
@@ -784,28 +782,29 @@
         <br>
         <br>
     </div>
-    <div id="footer">
+    <div id="footer" >
         <footer>
-            <div class="row">
+            <div class="row fixed-bottom">
                 <div class="col-md-8 col-sm-12 bg-primary">
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                            <p id="TotalDBP">DB Point : 0</p>
+                            Total DB Point : <text id="TotalDBP">DB Point : 0</text>
                         </div>
                         <div class="col-md-6 col-sm-6">
-                            <p id="TotalLBP">LB Point : 0</p>
+                            Total LB Point : <text id="TotalLBP">LB Point : 0</text>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-12 bg-success">
-                    <p id="income"></p>
+                    Rs. <text id="income">0</text>
                 </div>
             </div>
         </footer>
     </div>
 
     <script>
-        updateTblRows();    </script>
+        initial();
+    </script>
 
 </body>
 
