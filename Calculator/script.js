@@ -251,6 +251,12 @@ class TableLeg {
             totalDb += parseFloat(this.table.querySelector("." + this.dbpArray[i]).innerHTML);
         }
 
+        for (let i = 0; i < this.dbpMaxGen; i++) {
+            
+            this.table.querySelector("." + this.lbpArray[i]).innerHTML = "0";
+            
+        }
+
         for (let i = 0; i < this.lbpMaxGen; i++) {
 
             if (this.lbLegCheking()) {
