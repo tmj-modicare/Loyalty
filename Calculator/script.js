@@ -274,8 +274,16 @@ class TableLeg {
 
         totalDbPointElement.innerHTML = totalDb.toFixed(2);
         totalLbPointElement.innerHTML = totalLb.toFixed(2);
+        
+        if( this.DDtitle.selectedIndex == 0 )
+        {
+            totalDbPointElement.innerHTML = 0;
+            totalLbPointElement.innerHTML = 0;
+            this.Gpv = 0;
+            
+        }
+        
         this.table.querySelector(".GPV").innerHTML = this.Gpv;
-
     }
 
     lbLegCheking() {
